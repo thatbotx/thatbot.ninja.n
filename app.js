@@ -34,7 +34,7 @@ const server = https.createServer({
 // FAVICON
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 80;
 
 // PUBLIC DIRECTORY
 app.use(express.static("public"));
@@ -63,5 +63,5 @@ app.get("/screenshots", function(req, res) {
 // 	console.log("Server is listening on port: " + port);
 // });
 
-http.createServer(app).listen(80);
+//http.createServer(app).listen(80);
 server.listen(port, () => console.log('Secure Server on port ' + port));
