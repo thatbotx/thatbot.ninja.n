@@ -1,0 +1,141 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Scheherazade New', serif;
+  font-size: 1.2rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  text-align: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  display: inline;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+hr {
+  color: white;
+  margin: 40px auto;
+  width: 20px;
+}
+
+img {
+  margin: 25px;
+}
+
+button {
+  margin: 4px;
+}
+
+.whitebg {
+  background-color: #ffffff;
+  border-bottom: solid;
+  border-top: solid;
+  border-bottom-color: black;
+  border-bottom-width: 1px;
+  border-top-color: black;
+  border-top-width: 6px;
+  padding: 15px;
+}
+
+.graybg {
+  background-color: gray;
+}
+
+.orange {
+  color: orange;
+}
+
+.bluebg {
+  background-color: aqua;
+  padding: 25px;
+  border-top: solid;
+  border-bottom: solid;
+  border-top-color: red;
+  border-bottom-color: red;
+  border-top-width: 6px;
+  font-size: 3.8rem;
+}
+
+.orangered {
+  color: orangered;
+}
+
+.blue {
+  color: blue;
+}
+
+.yellowtextonly {
+  font-family: 'Noto Sans Mono', monospace;
+  color: gold;
+}
+
+.padbottom {
+  padding-bottom: 25px;
+}
+
+.yellow {
+  color: gold;
+  background-color: black;
+  border-top: solid;
+  border-top-color: white;
+  border-bottom: solid;
+  border-bottom-color: white;
+  border-bottom-width: 2px;
+  padding: 35px;
+}
+
+.marged {
+  margin: 15px;
+}
+
+.fontsize {
+  font-size: 2rem;
+}
+
+.inline {
+  display: inline;
+  padding: 10px;
+  border-radius: 8%;
+}
+
+.block {
+  display: block;
+}
+
+.red {
+  color: red;
+}
+
+.orangebg {
+  background-color: orange;
+}
+
+.goldbg {
+  background-color: gold;
+}
+
+.nomargin {
+  margin: 0;
+}
+
+.padded {
+  padding: 30px;
+}
+
+
+.roundedcorners {
+  border-radius: 5%;
+  margin: 45px;
+}
