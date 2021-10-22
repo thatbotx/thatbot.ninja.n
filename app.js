@@ -19,17 +19,17 @@ const ejs = require("ejs");
 const favicon = require("serve-favicon");
 
 const http = require('http');
-const https = require('https');
-const forceSsl = require('express-force-ssl');
-const path = require('path');
-const fs = require('fs');
+//const https = require('https');
+//const forceSsl = require('express-force-ssl');
+//const path = require('path');
+//const fs = require('fs');
 
 const app = express();
 
-const server = https.createServer({
-  key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
-  cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem'))
-}, app);
+//const server = https.createServer({
+//  key: fs.readFileSync(path.join(__dirname, 'cert', 'key.pem')),
+//  cert: fs.readFileSync(path.join(__dirname, 'cert', 'cert.pem'))
+//}, app);
 
 // FAVICON
 app.use(favicon(__dirname + "/public/favicon.ico"));
@@ -59,9 +59,9 @@ app.get("/screenshots", function(req, res) {
 
 
 
-// app.listen(port, function() {
-// 	console.log("Server is listening on port: " + port);
-// });
+app.listen(port, function() {
+	console.log("Server is listening on port: " + port);
+});
 
 //http.createServer(app).listen(80);
-server.listen(port, () => console.log('Secure Server on port ' + port));
+//server.listen(port, () => console.log('Secure Server on port ' + port));
