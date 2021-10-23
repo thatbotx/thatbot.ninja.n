@@ -59,7 +59,7 @@ app.get("/screenshots", function(req, res) {
 
 
 
-app.listen(port, function() {
+var server = app.listen(port, function() {
 	console.log("Server is listening on port: " + port);
 });
 
