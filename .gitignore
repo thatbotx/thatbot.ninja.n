@@ -34,8 +34,10 @@ bower_components
 # node-waf configuration
 .lock-wscript
 
-cert
-cert/*
+./cert
+./cert/*
+./cert/cert.pem
+./cert/key.pem
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
