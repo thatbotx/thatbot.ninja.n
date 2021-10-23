@@ -50,7 +50,7 @@ button {
 }
 
 .graybg {
-  background-image: url("/img/placeholder.png");
+  background-image: "img/placeholder.png";
   background-color: gray;
 }
 
