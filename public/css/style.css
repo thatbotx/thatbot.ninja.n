@@ -50,7 +50,7 @@ button {
 }
 
 .graybg {
-  background-image: "img/placeholder.png";
+  background-image: url('https://thatbot.ninja/img/placeholder.png');
   background-color: gray;
 }
 
