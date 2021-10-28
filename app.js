@@ -34,7 +34,7 @@ const app = express();
 // FAVICON
 app.use(favicon(__dirname + "/public/favicon.ico"));
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
 // PUBLIC DIRECTORY
 app.use(express.static("public"));
